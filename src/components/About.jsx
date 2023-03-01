@@ -25,27 +25,27 @@ const About = () => {
                 ref={ref}
                 className="grid grid-cols-3 sm:flex sm:flex-row justify-around py-5 gap-5">
                 <li>
-                    <img src="/src/assets/images/icons8-kettlebell-100.png" alt="kb" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
+                    <img src="../assets/images/icons8-kettlebell-100.png" alt="kb" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
                     <p>Fuerza</p>
                 </li>
                 <li>
-                    <img src="/src/assets/images/icons8-velocímetro-100.png" alt="speed" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
+                    <img src="../assets/images/icons8-velocímetro-100.png" alt="speed" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
                     <p>Velocidad</p>
                 </li>
                 <li>
-                    <img src="/src/assets/images/icons8-corazón-con-pulso-100.png" alt="heart" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
+                    <img src="../assets/images/icons8-corazón-con-pulso-100.png" alt="heart" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
                     <p>Resistencia</p>
                 </li>
                 <li>
-                    <img src="/src/assets/images/icons8-ejercicio-100.png" alt="pot" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
+                    <img src="../assets/images/icons8-ejercicio-100.png" alt="pot" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
                     <p>Potencia</p>
                 </li>
                 <li>
-                    <img src="/src/assets/images/icons8-balanza-100.png" alt="bal" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
+                    <img src="../assets/images/icons8-balanza-100.png" alt="bal" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
                     <p>Equilibrio</p>
                 </li>
                 <li>
-                    <img src="/src/assets/images/icons8-meditación-gurú-100.png" alt="med" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
+                    <img src="../assets/images/icons8-meditación-gurú-100.png" alt="med" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
                     <p>Concentración</p>
                 </li>
             </motion.ul>
