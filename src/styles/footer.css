@@ -1,0 +1,67 @@
+
+.footer {
+    width: 100%;
+    min-height: 350px;
+    background: #000;
+}
+
+.footer h1 {
+    color: #ebebeb;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 480px) {
+    .footer {
+        min-height: 450px;
+    }
+    .footer h1 {
+        color: #e0e0e0;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+}
+
+.footer p {
+    line-height: 1.2rem;
+    font-size: 15px;
+    color: #ffffffcf;
+}
+
+.footer li {
+    color: #ffffffcf;
+}
+
+.footer a {
+    line-height: 1.2rem;
+    font-size: 16px;
+    color: #ffffffcf;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.legal {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.legal h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.legal p {
+    font-size: 14px;
+}
+
+.legal span {
+    font-weight: 500;
+}
+
+.legal li {
+    font-size: 14px;
+    font-weight: 300;
+}

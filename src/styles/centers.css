@@ -1,0 +1,40 @@
+/** Centers page */
+
+.centers-btn {
+    border: 2px solid #d11742;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px black;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 480px) {
+    .centers-btn {
+        padding: 0.2rem 0.3rem;
+        font-size: small;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1050px) {
+    .centers-btn {
+        padding: 0.1rem 0.1rem;
+        font-size: small;
+    }
+}
+
+.box {
+    background-image: url('/src/assets/images/centro1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.zenter {
+    background-image: url('/src/assets/images/centro2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

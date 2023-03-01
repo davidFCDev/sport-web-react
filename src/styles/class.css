@@ -1,0 +1,60 @@
+
+.class-btn {
+    background-image: linear-gradient(45deg, #de1846 0%, #d11742 100%);
+    border-radius: 3px;
+    box-shadow: 0 1px 5px black;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 480px) {
+    .class-btn {
+        font-size: small;
+        padding: 0.2rem 0.3rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1050px) {
+    .class-btn {
+        font-size: small;
+        padding: 0.2rem 0.3rem;
+    }
+}
+
+.endurance {
+    background-image: url('/src/assets/images/clase7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.aerial {
+    background-image: url('/src/assets/images/clase2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wod {
+    background-image: url('/src/assets/images/clase4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.try45 {
+    background-image: url('/src/assets/images/clase6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.openbox {
+    background-image: url('/src/assets/images/clase1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
