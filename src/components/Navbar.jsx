@@ -52,21 +52,12 @@ const Navbar = () => {
             } p-6 bg-black-gradient border border-dimWhite absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-md`}
             >
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-2 text-[15px]">
-                <Link to={'/prices'}>
-                    <li className="flex items-center gap-1">
-                        <span className='text-slate-100'>TARIFAS</span><RiMoneyEuroCircleFill />
-                    </li>
-                </Link>
-                <Link to={'/timetable'}>
-                    <li className="flex items-center gap-1">
-                        <span className='text-slate-100'>HORARIOS</span><RiCalendar2Line />
-                    </li>
-                </Link>
-                <a href="https://www.instagram.com/tryfitness._/">
-                    <li className="flex items-center gap-1">
-                        <span className='text-slate-100'>INSTAGRAM</span><RiInstagramLine />
-                    </li>
-                </a>
+            {navLinks.map((nav, index) => (
+            <li key={nav.id} className="" onClick={() => setActive(nav.title)}>
+                <a href={`#${nav.id}`}>{nav.title}</a>
+            </li>
+            ))}
+            <li className='flex gap-1 items-center'>INSTAGRAM<GrInstagram className="text-[15px] md:text-[25px] hover:cursor-pointer hover:scale-110" /></li>
             </ul>
             </div>
         </div>

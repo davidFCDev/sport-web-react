@@ -12,10 +12,10 @@ const Partners = () => {
     const [ref, inView] = useInView({ threshold: 0.5, triggerOnce: true });
     
     return (
-        <section className="w-full flex items-center justify-center py-2 sm:py-5 md:py-12 mb-10">
+        <section className="w-full flex items-center justify-center py-7 sm:py-5 md:py-12 mb-10">
 
             <motion.div 
-                className="flex items-center opacity-40 gap-5 sm:gap-10 md:gap-24 overflow-hidden" 
+                className="flex items-center opacity-40 gap-4 sm:gap-10 md:gap-24 overflow-hidden" 
                 initial={{ opacity: 0, y: 50 }}
                 animate={inView ? animationOptions : {}}
                 ref={ref}>
