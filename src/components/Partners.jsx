@@ -20,27 +20,27 @@ const Partners = () => {
                 animate={inView ? animationOptions : {}}
                 ref={ref}>
                 <img
-                    src="/src/assets/images/logoRogue.png"
+                    src="/assets/images/logoRogue.png"
                     alt="logoCF"
                     className="max-w-[60px] sm:max-w-[110px] md:max-w-[180px] hover:scale-110 hover:transition-transform"
                 />
                 <img
-                    src="/src/assets/images/logoReebok.png"
+                    src="/assets/images/logoReebok.png"
                     alt="logoCF"
                     className="max-w-[60px] sm:max-w-[110px] md:max-w-[180px] hover:scale-110 hover:transition-transform"
                 />
                 <img
-                    src="/src/assets/images/logoTLF.png"
+                    src="/assets/images/logoTLF.png"
                     alt="logoCF"
                     className="max-w-[40px] sm:max-w-[90px] md:max-w-[140px] hover:scale-110 hover:transition-transform"
                 />
                 <img
-                    src="/src/assets/images/logoNocco.png"
+                    src="/assets/images/logoNocco.png"
                     alt="logoCF"
                     className="max-w-[60px] sm:max-w-[100px] md:max-w-[170px] hover:scale-110 hover:transition-transform"
                     />
                 <img
-                    src="/src/assets/images/logoCrossfit.png"
+                    src="/assets/images/logoCrossfit.png"
                     alt="logoCF"
                     className="max-w-[65px] sm:max-w-[110px] md:max-w-[180px] hover:scale-110 hover:transition-transform"
                 />

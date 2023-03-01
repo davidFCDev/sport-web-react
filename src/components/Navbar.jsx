@@ -7,8 +7,8 @@ import {
 } from 'react-icons/ri';
 import { GrInstagram } from 'react-icons/gr';
 import { Link } from 'react-router-dom';
-import menu from '../assets/images/menu.svg';
-import close from '../assets/images/close.svg';
+import menu from '/assets/images/menu.svg';
+import close from '/assets/images/close.svg';
 import styles from '../style';
 
 const Navbar = () => {
@@ -22,7 +22,7 @@ const Navbar = () => {
         <div>
             <a href="#">
                 <img
-                    src="/src/assets/images/logoWeb.png"
+                    src="/assets/images/logoWeb.png"
                     className="max-w-[200px]"
                     alt="try"
                 />

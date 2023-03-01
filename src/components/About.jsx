@@ -25,27 +25,27 @@ const About = () => {
                 ref={ref}
                 className="grid grid-cols-3 sm:flex sm:flex-row justify-around py-5 gap-5">
                 <li>
-                    <img src="/src/assets/images/logoKb.png" alt="kb" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
+                    <img src="/assets/images/logoKb.png" alt="kb" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
                     <p>Fuerza</p>
                 </li>
                 <li>
-                    <img src="/src/assets/images/logoVelocidad.png" alt="speed" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
+                    <img src="/assets/images/logoVelocidad.png" alt="speed" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
                     <p>Velocidad</p>
                 </li>
                 <li>
-                    <img src="/src/assets/images/logoResistencia.png" alt="heart" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
+                    <img src="/assets/images/logoResistencia.png" alt="heart" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
                     <p>Resistencia</p>
                 </li>
                 <li>
-                    <img src="/src/assets/images/logoPotencia.png" alt="pot" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
+                    <img src="/assets/images/logoPotencia.png" alt="pot" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
                     <p>Potencia</p>
                 </li>
                 <li>
-                    <img src="/src/assets/images/logoEquilibrio.png" alt="bal" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
+                    <img src="/assets/images/logoEquilibrio.png" alt="bal" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
                     <p>Equilibrio</p>
                 </li>
                 <li>
-                    <img src="/src/assets/images/logoConcentracion.png" alt="med" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
+                    <img src="/assets/images/logoConcentracion.png" alt="med" className="max-w-[85px] sm:max-w-[100px] hover:scale-110"/>
                     <p>Concentración</p>
                 </li>
             </motion.ul>

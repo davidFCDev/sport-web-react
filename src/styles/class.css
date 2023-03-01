@@ -25,35 +25,35 @@
 }
 
 .sala {
-    background-image: url('/src/assets/images/clase7.webp');
+    background-image: url('/assets/images/clase7.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .kb {
-    background-image: url('/src/assets/images/clase2.webp');
+    background-image: url('/assets/images/clase2.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .wod {
-    background-image: url('/src/assets/images/clase4.webp');
+    background-image: url('/assets/images/clase4.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .endurance {
-    background-image: url('/src/assets/images/clase6.webp');
+    background-image: url('/assets/images/clase6.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .powerlifting {
-    background-image: url('/src/assets/images/clase1.webp');
+    background-image: url('/assets/images/clase1.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
