@@ -28,7 +28,7 @@ const ClassB = () => {
                 </div>
             </div>
 
-            <div className='aerial w-[100%] sm:w-[49%] h-[49.5%] sm:h-full flex ' ref={ref2}>
+            <div className='kb w-[100%] sm:w-[49%] h-[49.5%] sm:h-full flex ' ref={ref2}>
                 <div className='class-box w-full h-full flex items-end'>
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}

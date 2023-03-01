@@ -14,7 +14,7 @@ const CentersB = () => {
 
     return (
         <section className='w-full h-[700px] sm:h-[250px] md:h-[400px] flex flex-col sm:flex-row items-center justify-between'>
-            <div className='box w-[100%] sm:w-[50.5%] h-[50%] sm:h-full flex' ref={ref1}>
+            <div className='box-1 w-[100%] sm:w-[50.5%] h-[50%] sm:h-full flex' ref={ref1}>
                 <div className='class-box-large w-full h-full flex items-end'>
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
@@ -25,7 +25,7 @@ const CentersB = () => {
                     </motion.div>
                 </div>
             </div>
-            <div className='zenter w-[100%] sm:w-[49%] h-[49.5%] sm:h-full flex ' ref={ref2}>
+            <div className='box-2 w-[100%] sm:w-[49%] h-[49.5%] sm:h-full flex ' ref={ref2}>
                 <div className='class-box-large w-full h-full flex items-end'>
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}

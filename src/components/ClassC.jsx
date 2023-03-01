@@ -16,7 +16,7 @@ const ClassC = () => {
     return (
         <section className='class w-full h-[1050px] sm:h-[250px] md:h-[400px] flex flex-col sm:flex-row items-center justify-between'>
 
-            <div className='openbox w-[100%] sm:w-[33%] h-[33.2%] sm:h-full flex' ref={ref1}>
+            <div className='powerlifting w-[100%] sm:w-[33%] h-[33.2%] sm:h-full flex' ref={ref1}>
                 <div className='class-box w-full h-full flex items-end'>
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
@@ -29,7 +29,7 @@ const ClassC = () => {
                 </div>
             </div>
 
-            <div className='try45 w-[100%] sm:w-[33%] h-[33.2%] sm:h-full flex' ref={ref2}>
+            <div className='endurance w-[100%] sm:w-[33%] h-[33.2%] sm:h-full flex' ref={ref2}>
                 <div className='class-box w-full h-full flex items-end'>
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
@@ -42,7 +42,7 @@ const ClassC = () => {
                 </div>
             </div>
 
-            <div className='endurance w-[100%] sm:w-[33%] h-[33%] sm:h-full flex' ref={ref3}>
+            <div className='sala w-[100%] sm:w-[33%] h-[33%] sm:h-full flex' ref={ref3}>
                 <div className='class-box w-full h-full flex items-end'>
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
