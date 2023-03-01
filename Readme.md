@@ -11,11 +11,11 @@ Proyecto de página deportiva para pleno uso con ReactJS
 
 ## Ver ejemplo en vivo
 
-- [Website](https://mi-virtual-folio.netlify.app/)
+- [Website](https://sport-web.netlify.app/)
 
 ## Instalación
 
-Este proyecto no necesita de instalación.
+Este proyecto no necesita de instalación. Responsive.
 
 ## Preview
 
